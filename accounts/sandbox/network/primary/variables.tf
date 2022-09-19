@@ -1,13 +1,13 @@
 variable "aws_profile" {
   type        = string
   description = "AWS profile name"
-  default     = "sandbox"
+  default     = "blue-harbors-admin"
 }
 
 variable "aws_region" {
   type        = string
   description = "AWS region"
-  default     = "us-west-2"
+  default     = "eu-west-1"
 }
 
 variable "tenant" {
