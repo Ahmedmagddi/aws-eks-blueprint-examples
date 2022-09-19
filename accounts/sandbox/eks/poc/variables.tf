@@ -7,7 +7,7 @@ variable "aws_profile" {
 variable "aws_region" {
   type        = string
   description = "AWS region"
-  default     = "us-west-2"
+  default     = "eu-west-1"
 }
 
 variable "cluster_version" {
